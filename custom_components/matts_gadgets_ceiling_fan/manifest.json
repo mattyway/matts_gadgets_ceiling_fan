@@ -1,6 +1,7 @@
 {
   "domain": "matts_gadgets_ceiling_fan",
   "name": "Matt's Gadgets Ceiling Fan",
+  "version": "1.0.0",
   "config_flow": true,
   "documentation": "https://git.mattway.com.au/matt/matts_gadgets_ceiling_fan",
   "requirements": [],
