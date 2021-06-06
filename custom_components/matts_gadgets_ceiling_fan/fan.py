@@ -1,4 +1,4 @@
-from homeassistant.components import matts_gadgets_ceiling_fan
+from . import DOMAIN
 import logging
 import json
 import requests
@@ -138,7 +138,7 @@ class MattsGadgetsCeilingFan(FanEntity):
     @property
     def device_info(self):
         return {
-            "identifiers": {(matts_gadgets_ceiling_fan.DOMAIN, self.unique_id)},
+            "identifiers": {(DOMAIN, self.unique_id)},
             "name": self.name,
             "manufacturer": "Matt's Gadgets",
             "model": "eCO",
